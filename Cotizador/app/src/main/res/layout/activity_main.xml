@@ -27,7 +27,9 @@
         android:id="@+id/txt_log"
         android:layout_below="@+id/imgLogo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="#fe8da0d8" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -38,7 +40,9 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_below="@+id/txt_log"
-        android:layout_toEndOf="@+id/lblPassword" />
+        android:layout_toEndOf="@+id/lblPassword"
+        android:textAlignment="center"
+        android:textColor="#fe8da0d8" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -48,7 +52,9 @@
         android:id="@+id/txtPass"
         android:layout_marginTop="20dp"
         android:layout_below="@+id/txtUser"
-        android:layout_alignStart="@+id/txtUser" />
+        android:layout_alignStart="@+id/txtUser"
+        android:textAlignment="center"
+        android:textColor="#fe8da0d8" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -57,7 +63,9 @@
         android:text="@string/usuario"
         android:id="@+id/lblUser"
         android:layout_alignBottom="@+id/txtUser"
-        android:layout_alignStart="@+id/imgLogo" />
+        android:layout_alignStart="@+id/imgLogo"
+        android:textAlignment="center"
+        android:textColor="#fe8da0d8" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -66,7 +74,9 @@
         android:text="@string/contrase_a"
         android:id="@+id/lblPassword"
         android:layout_alignBottom="@+id/txtPass"
-        android:layout_alignEnd="@+id/lblUser" />
+        android:layout_alignEnd="@+id/lblUser"
+        android:textAlignment="center"
+        android:textColor="#fe8da0d8" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -77,6 +87,8 @@
         android:layout_marginTop="30dp"
         android:layout_below="@+id/txtPass"
         android:layout_centerHorizontal="true"
-        android:onClick="Seguir" />
+        android:onClick="Seguir"
+        android:textAlignment="center"
+        android:textColor="#fe8da0d8" />
 
 </RelativeLayout>

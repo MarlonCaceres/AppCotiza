@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Seguir (View v){
-        Intent ven= new Intent(this,Cotizacion.class);
+        Intent ven= new Intent(this,Dispositivos.class);
         startActivity(ven);
     }
 }

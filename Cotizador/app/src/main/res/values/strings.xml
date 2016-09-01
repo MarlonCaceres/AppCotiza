@@ -5,4 +5,7 @@
     <string name="usuario">Usuario:</string>
     <string name="inicio_de_sesi_n">Inicio de Sesión</string>
     <string name="entrar">Entrar</string>
+    <string name="categor_a">Categoría:</string>
+    <string name="tipo">Tipo:</string>
+    <string name="dispositivos">Dispositivos</string>
 </resources>
